@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* Welcome to your friendly style sheet! This document helps organize your web pages, and keep them all in the same format. If you want to move blocks of content around, change default fonts, etc. you'll have to do it in here. */
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+/*---- General settings ----*/
+
+body {
+  margin: 0;
+  background-color:#EBF4F8;
+  text-align: center;
+  width:100%;
+  font-family: Arial;
+}
+
+#content {
+	padding:20px;
+	background-color:#FFFFFF;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content2 {
+	padding:20px;
+	text-align:left;
+	background-color:#FFFFFF;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:14px;
+}
+
+/*----- Link colors ---*/
+
+a:link {color:#5072CD;}
+a:visited {color:#805DA2;}
+
+#body1 {
+  min-width: 1280px;
+}
+
+#title {
+	font-size:16px;
+	font-weight:bold;
+	font-family: verdana;
+}
+
+#pnav {
+	font-size:12px;
+}
+
+
+/*---- Div holds title and nav ----*/
+
+#header {
+	
+	align-content: center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:36px;
+	height: 115px;
+	width:90%;
+	padding:15px;
+
+}
+
+/*--------- Menu Components ---------*/
+
+#primary_nav_wrap
+{
+	margin-top:15px;
+	padding-left:10%;
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
